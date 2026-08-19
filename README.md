@@ -89,25 +89,10 @@ Open `Package.swift` in Xcode and run the `MacSweep` executable, or use:
 swift run MacSweep
 ```
 
-The command-line-tools-only environment can build and test the package, but running the graphical app requires a logged-in macOS desktop session.
 
 ## Project Status
 
 MacSweep is under active development. The current focus is improving scan coverage, refining cleanup safety, and polishing the storage-review experience for macOS developers.
-
-## Screenshots
-
-Add screenshots here when they are ready:
-
-- Dashboard
-- Review screen
-- Cleanup results
-- History
-- Settings
-
-## Contributing
-
-Issues, ideas, and pull requests are welcome. If you find a detection case that should be safer, clearer, or more accurate, open an issue with details about what was scanned, what you expected, and what MacSweep reported.
 
 ## License
 
