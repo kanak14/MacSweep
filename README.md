@@ -4,6 +4,11 @@ MacSweep is a native SwiftUI macOS storage advisor and cleaner built for develop
 
 It helps you find Xcode clutter, simulator data, package-manager caches, generated project artifacts, old downloads, logs, backups, Trash contents, and other large removable storage so you can review it and clean it up with confidence.
 
+<img width="1036" height="704" alt="Screenshot 2026-08-19 at 4 57 11 PM" src="https://github.com/user-attachments/assets/c79c807e-6f75-4b0d-94e2-e6166c27cf03" />
+
+<img width="1031" height="707" alt="Screenshot 2026-08-19 at 4 57 32 PM" src="https://github.com/user-attachments/assets/a9c372ef-4244-4fa4-8d03-35996358380e" />
+
+
 ## Why MacSweep
 
 Development machines collect a lot of temporary data over time. Derived Data grows, simulators pile up, `node_modules` sprawls, Docker caches expand, and old archives linger long after they are useful.
