@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* MacSweepAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* MacSweepAppModel.swift */; };
+		A10000000000000000000002 /* MacSweepApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* MacSweepApp.swift */; };
+		A10000000000000000000003 /* CleanupEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* CleanupEngine.swift */; };
+		A10000000000000000000004 /* SafetyPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* SafetyPolicy.swift */; };
+		A10000000000000000000005 /* CleanupModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* CleanupModels.swift */; };
+		A10000000000000000000006 /* MacSweepScannerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* MacSweepScannerSettings.swift */; };
+		A10000000000000000000007 /* MacSweepReceiptStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* MacSweepReceiptStore.swift */; };
+		A10000000000000000000008 /* MacSweepSettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* MacSweepSettingsStore.swift */; };
+		A10000000000000000000009 /* CleanupScanning.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* CleanupScanning.swift */; };
+		A1000000000000000000000A /* DeveloperCacheScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000A /* DeveloperCacheScanner.swift */; };
+		A1000000000000000000000B /* GeneralStorageScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000B /* GeneralStorageScanner.swift */; };
+		A1000000000000000000000C /* OldFileScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000C /* OldFileScanner.swift */; };
+		A1000000000000000000000D /* SimulatorScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000D /* SimulatorScanner.swift */; };
+		A1000000000000000000000E /* XcodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000E /* XcodeScanner.swift */; };
+		A1000000000000000000000F /* MacSweepContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000F /* MacSweepContentView.swift */; };
+		A10000000000000000000010 /* MacSweepHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000010 /* MacSweepHistoryView.swift */; };
+		A10000000000000000000011 /* MacSweepOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* MacSweepOverviewView.swift */; };
+		A10000000000000000000012 /* MacSweepReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* MacSweepReviewView.swift */; };
+		A10000000000000000000013 /* MacSweepSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000013 /* MacSweepSettingsView.swift */; };
+		A10000000000000000000014 /* MacSweepTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000014 /* MacSweepTheme.swift */; };
+		A10000000000000000000015 /* MacSweepFileInspection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000015 /* MacSweepFileInspection.swift */; };
+		A10000000000000000000016 /* MacSweepFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000016 /* MacSweepFormatting.swift */; };
+		A10000000000000000000017 /* MacSweepProcessRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000017 /* MacSweepProcessRunner.swift */; };
+		A10000000000000000000018 /* ProjectArtifactScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001B /* ProjectArtifactScanner.swift */; };
+		A10000000000000000000019 /* DockerScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001C /* DockerScanner.swift */; };
+		A1000000000000000000001A /* MacSweepCleanupResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001D /* MacSweepCleanupResultView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* MacSweepAppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/App/MacSweepAppModel.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* MacSweepApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/App/MacSweepApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* CleanupEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/Cleanup/CleanupEngine.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* SafetyPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/Cleanup/SafetyPolicy.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* CleanupModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/Models/CleanupModels.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* MacSweepScannerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/Models/MacSweepScannerSettings.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* MacSweepReceiptStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/Persistence/MacSweepReceiptStore.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* MacSweepSettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/Persistence/MacSweepSettingsStore.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* CleanupScanning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/Scanning/CleanupScanning.swift; sourceTree = "<group>"; };
+		A2000000000000000000000A /* DeveloperCacheScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/Scanning/DeveloperCacheScanner.swift; sourceTree = "<group>"; };
+		A2000000000000000000000B /* GeneralStorageScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/Scanning/GeneralStorageScanner.swift; sourceTree = "<group>"; };
+		A2000000000000000000000C /* OldFileScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/Scanning/OldFileScanner.swift; sourceTree = "<group>"; };
+		A2000000000000000000000D /* SimulatorScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/Scanning/SimulatorScanner.swift; sourceTree = "<group>"; };
+		A2000000000000000000000E /* XcodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/Scanning/XcodeScanner.swift; sourceTree = "<group>"; };
+		A2000000000000000000000F /* MacSweepContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/UI/MacSweepContentView.swift; sourceTree = "<group>"; };
+		A20000000000000000000010 /* MacSweepHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/UI/MacSweepHistoryView.swift; sourceTree = "<group>"; };
+		A20000000000000000000011 /* MacSweepOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/UI/MacSweepOverviewView.swift; sourceTree = "<group>"; };
+		A20000000000000000000012 /* MacSweepReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/UI/MacSweepReviewView.swift; sourceTree = "<group>"; };
+		A20000000000000000000013 /* MacSweepSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/UI/MacSweepSettingsView.swift; sourceTree = "<group>"; };
+		A20000000000000000000014 /* MacSweepTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/UI/MacSweepTheme.swift; sourceTree = "<group>"; };
+		A20000000000000000000015 /* MacSweepFileInspection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/Utilities/MacSweepFileInspection.swift; sourceTree = "<group>"; };
+		A20000000000000000000016 /* MacSweepFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/Utilities/MacSweepFormatting.swift; sourceTree = "<group>"; };
+		A20000000000000000000017 /* MacSweepProcessRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/Utilities/MacSweepProcessRunner.swift; sourceTree = "<group>"; };
+		A20000000000000000000018 /* MacSweep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacSweep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000019 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		A2000000000000000000001A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A2000000000000000000001B /* ProjectArtifactScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/Scanning/ProjectArtifactScanner.swift; sourceTree = "<group>"; };
+		A2000000000000000000001C /* DockerScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/Scanning/DockerScanner.swift; sourceTree = "<group>"; };
+		A2000000000000000000001D /* MacSweepCleanupResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MacSweep/UI/MacSweepCleanupResultView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A40000000000000000000002 /* Sources */,
+				A20000000000000000000019 /* Package.swift */,
+				A2000000000000000000001A /* README.md */,
+				A40000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A40000000000000000000002 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* MacSweepAppModel.swift */,
+				A20000000000000000000002 /* MacSweepApp.swift */,
+				A20000000000000000000003 /* CleanupEngine.swift */,
+				A20000000000000000000004 /* SafetyPolicy.swift */,
+				A20000000000000000000005 /* CleanupModels.swift */,
+				A20000000000000000000006 /* MacSweepScannerSettings.swift */,
+				A20000000000000000000007 /* MacSweepReceiptStore.swift */,
+				A20000000000000000000008 /* MacSweepSettingsStore.swift */,
+				A20000000000000000000009 /* CleanupScanning.swift */,
+				A2000000000000000000000A /* DeveloperCacheScanner.swift */,
+				A2000000000000000000000B /* GeneralStorageScanner.swift */,
+				A2000000000000000000000C /* OldFileScanner.swift */,
+				A2000000000000000000000D /* SimulatorScanner.swift */,
+				A2000000000000000000000E /* XcodeScanner.swift */,
+				A2000000000000000000001B /* ProjectArtifactScanner.swift */,
+				A2000000000000000000001C /* DockerScanner.swift */,
+				A2000000000000000000000F /* MacSweepContentView.swift */,
+				A2000000000000000000001D /* MacSweepCleanupResultView.swift */,
+				A20000000000000000000010 /* MacSweepHistoryView.swift */,
+				A20000000000000000000011 /* MacSweepOverviewView.swift */,
+				A20000000000000000000012 /* MacSweepReviewView.swift */,
+				A20000000000000000000013 /* MacSweepSettingsView.swift */,
+				A20000000000000000000014 /* MacSweepTheme.swift */,
+				A20000000000000000000015 /* MacSweepFileInspection.swift */,
+				A20000000000000000000016 /* MacSweepFormatting.swift */,
+				A20000000000000000000017 /* MacSweepProcessRunner.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (A20000000000000000000018 /* MacSweep.app */);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* MacSweep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90000000000000000000002 /* Build configuration list for PBXNativeTarget "MacSweep" */;
+			buildPhases = (
+				A70000000000000000000001 /* Sources */,
+				A30000000000000000000001 /* Frameworks */,
+				A70000000000000000000002 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = MacSweep;
+			productName = MacSweep;
+			productReference = A20000000000000000000018 /* MacSweep.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A60000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = { A50000000000000000000001 = { CreatedOnToolsVersion = 26.6; }; };
+			};
+			buildConfigurationList = A90000000000000000000001 /* Build configuration list for PBXProject "MacSweep" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = A40000000000000000000001;
+			productRefGroup = A40000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (A50000000000000000000001 /* MacSweep */);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A70000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* MacSweepAppModel.swift in Sources */,
+				A10000000000000000000002 /* MacSweepApp.swift in Sources */,
+				A10000000000000000000003 /* CleanupEngine.swift in Sources */,
+				A10000000000000000000004 /* SafetyPolicy.swift in Sources */,
+				A10000000000000000000005 /* CleanupModels.swift in Sources */,
+				A10000000000000000000006 /* MacSweepScannerSettings.swift in Sources */,
+				A10000000000000000000007 /* MacSweepReceiptStore.swift in Sources */,
+				A10000000000000000000008 /* MacSweepSettingsStore.swift in Sources */,
+				A10000000000000000000009 /* CleanupScanning.swift in Sources */,
+				A1000000000000000000000A /* DeveloperCacheScanner.swift in Sources */,
+				A1000000000000000000000B /* GeneralStorageScanner.swift in Sources */,
+				A1000000000000000000000C /* OldFileScanner.swift in Sources */,
+				A1000000000000000000000D /* SimulatorScanner.swift in Sources */,
+				A1000000000000000000000E /* XcodeScanner.swift in Sources */,
+				A1000000000000000000000F /* MacSweepContentView.swift in Sources */,
+				A10000000000000000000010 /* MacSweepHistoryView.swift in Sources */,
+				A10000000000000000000011 /* MacSweepOverviewView.swift in Sources */,
+				A10000000000000000000012 /* MacSweepReviewView.swift in Sources */,
+				A10000000000000000000013 /* MacSweepSettingsView.swift in Sources */,
+				A10000000000000000000014 /* MacSweepTheme.swift in Sources */,
+				A10000000000000000000015 /* MacSweepFileInspection.swift in Sources */,
+				A10000000000000000000016 /* MacSweepFormatting.swift in Sources */,
+				A10000000000000000000017 /* MacSweepProcessRunner.swift in Sources */,
+				A10000000000000000000018 /* ProjectArtifactScanner.swift in Sources */,
+				A10000000000000000000019 /* DockerScanner.swift in Sources */,
+				A1000000000000000000001A /* MacSweepCleanupResultView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A80000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; MACOSX_DEPLOYMENT_TARGET = 14.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; }; name = Debug; };
+		A80000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; MACOSX_DEPLOYMENT_TARGET = 14.0; SDKROOT = macosx; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O"; SWIFT_VERSION = 5.0; }; name = Release; };
+		A80000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MacSweep;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHighResolutionCapable = YES;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanakyadav.macsweep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		A80000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MacSweep;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHighResolutionCapable = YES;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kanakyadav.macsweep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A90000000000000000000001 /* Build configuration list for PBXProject "MacSweep" */ = {isa = XCConfigurationList; buildConfigurations = (A80000000000000000000001 /* Debug */, A80000000000000000000002 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A90000000000000000000002 /* Build configuration list for PBXNativeTarget "MacSweep" */ = {isa = XCConfigurationList; buildConfigurations = (A80000000000000000000003 /* Debug */, A80000000000000000000004 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = A60000000000000000000001 /* Project object */;
+}
